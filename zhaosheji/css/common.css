@@ -1,0 +1,29 @@
+/*整体*/
+.navbar{min-height: 69px;}
+.navbar.navbar-default{background: url(../img/header_bg.png) repeat-y; background-size:100% auto; }
+/*logo*/
+.navbar .navbar-brand{height: auto;padding: 0px;padding-top: 14px;}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{margin-left:15.41666666666667%;}
+.navbar .navbar-brand img{width: 125px;height: 42px;float: left;}
+/*导航*/
+.navbar-nav{margin-top: 12px;margin-left: 80px;}
+.navbar-nav > li > a{padding: 0px;width: 115px;text-align: center;line-height: 44px;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{border: 1px solid #fff;background-color:transparent;color: #fff;border-radius: 22px;}
+.navbar-default .navbar-nav > li > a{color: #fff;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{color: #fff;}
+@media (max-width: 1080px) {
+	.navbar .container{width: 100%;}
+	.navbar-nav > li > a{width: 90px;}
+	.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+		margin-left:5%;
+	}
+}
+@media (max-width: 768px) {
+	.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{margin-left: 0px;}
+	.navbar-nav{margin-top: 12px;margin-left: 0px;}
+	.navbar-nav > li > a{width: auto;}
+}
+/*头部菜单按钮*/
+.navbar-default .navbar-toggle{border-color: #FFF;}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background:transparent; }
+.navbar-default .navbar-toggle .icon-bar{background-color:#fff;}
