@@ -1,11 +1,3 @@
-/*css重置*/
-ul{
-	list-style: none;
-	padding: 0px;
-}
-body{
-	background: #f2f2f2;
-}
 /*整体*/
 .navbar{min-height: 69px;}
 .navbar.navbar-default{background: url(../img/header_bg.png) repeat-y; background-size:100% auto; }
@@ -34,64 +26,16 @@ body{
 /*头部菜单按钮*/
 .navbar-default .navbar-toggle{border-color: #FFF;}
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background:transparent; }
+
 .navbar-default .navbar-toggle .icon-bar{background-color:#fff;}
-/*案例推荐列表*/
-.recommend .recommend_list{
-	margin: 0px auto;
-	padding-top: 68px;
-	width: 984px;
-	overflow: hidden;
-}
-.recommend .recommend_list li{
-	background: url("../img/recommend_list_bg.png") no-repeat bottom;
-	width: 302px;
-	height: 190px;
-	position: relative;
-	float: left;
-	margin: 0px 13px 38px;
-}
-.recommend .recommend_list li:hover .recommend-box{
-	top: -36px;
-	transition: all 1s;
-}
-.recommend .recommend_list li:hover .recommend-box .li_btn{
-	display: block;
-	transition: all 0.5s;
-}
-.recommend .recommend_list li .recommend-box{
-	padding: 20px;
-	border: 1px solid #d5d5d5;
-	border-radius: 14px;
-	background: #f8f8f8;
-	width: 302px;
-	height: 190px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-}
-.recommend .recommend_list .recommend-box .li_btn{
-	position: absolute;
-	top: 20px;
-	left: 20px;
-	width: 262px;
-	height: 148px;
-	background: rgba(103,101,130,0.57);
-	display: none;
-}
-.recommend .recommend_list .recommend-box .li_btn b{
-	background: rgba(15,12,19,0.44);
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	border-radius: 5px;
-	top: 24px;
-	left: 81px;
-}
-.recommend .recommend_list .recommend-box .li_btn i{
-	background: url("../img/recommend_list_btn.png") no-repeat;
-	position: absolute;
-	width: 70px;
-	height: 69px;
-	top: 15px;
-	left: 14.5px;
-}
+/*内容标题*/
+.content_title{width:727px; margin:0px auto;}
+.content_title .content_title_main img{ margin-bottom:20px;}
+.content_title .content_title_main span{ font-size:44px; letter-spacing:10px; margin-top:10px;}
+.content_title .content_title_main span.green{color:#86c60e;}
+.content_title .content_title_main span.white{color:#9c9494; margin-left:5px;}
+
+.content-logo{position:relative;}
+.content-logo .logo-foot{width:100%;}
+.content-logo .logo-footer{position:absolute; bottom:0px; left:43%;}
+
