@@ -1,3 +1,2 @@
-.all{background: url(../img/body_bg.png);}
-.main{}
+.all{background: url(../img/body_bg.png); margin-top: -20px; }
 .main .works-show img{width: 80%;}
