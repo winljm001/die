@@ -26,4 +26,16 @@
 /*头部菜单按钮*/
 .navbar-default .navbar-toggle{border-color: #FFF;}
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background:transparent; }
+
 .navbar-default .navbar-toggle .icon-bar{background-color:#fff;}
+/*内容标题*/
+.content_title{width:727px; margin:0px auto;}
+.content_title .content_title_main img{ margin-bottom:20px;}
+.content_title .content_title_main span{ font-size:44px; letter-spacing:10px; margin-top:10px;}
+.content_title .content_title_main span.green{color:#86c60e;}
+.content_title .content_title_main span.white{color:#9c9494; margin-left:5px;}
+
+.content-logo{position:relative;}
+.content-logo .logo-foot{width:100%;}
+.content-logo .logo-footer{position:absolute; bottom:0px; left:43%;}
+
