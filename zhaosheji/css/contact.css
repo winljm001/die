@@ -1,5 +1,29 @@
 
 
-/*广告图*/
-.navbar.navbar-default{ margin-bottom: 0px;}
-.container .form-group input.form-control{width:310px;height:30px;}
+/*重置*/
+.navbar{margin-bottom: 0px;border:none;border-radius:0px;}
+
+/*form提交*/
+.form-group{overflow:hidden;}
+.form-group .form-control{border:1px solid #1aa83d;width:25.8333%;height:45px;float:left;}
+ .form-group .form-control_one{border:1px solid #1aa83d;height:45px;float:left;width:43.75%;}
+/* 提示文字颜色 */
+/*input:-moz-placeholder,   
+textarea:-moz-placeholder {   
+    color: #1aa83d;   
+}   
+  
+input:-ms-input-placeholder,   
+textarea:-ms-input-placeholder {   
+    color: #1aa83d;   
+}   
+  
+input::-webkit-input-placeholder,   
+textarea::-webkit-input-placeholder {   
+    color: #1aa83d;   
+}*/
+
+
+
+/*按键(评论)*/
+.btn-primary{background:#1aa83d;border:1px solid #1aa83d;border-radius:5px;}
