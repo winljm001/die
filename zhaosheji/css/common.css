@@ -35,3 +35,7 @@
 .content_title .content_title_main span.green{color:#86c60e;}
 .content_title .content_title_main span.white{color:#9c9494; margin-left:5px;}
 
+.content-logo{position:relative;}
+.content-logo .logo-foot{width:100%;}
+.content-logo .logo-footer{position:absolute; bottom:0px; left:43%;}
+
