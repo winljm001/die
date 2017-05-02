@@ -1,2 +1,6 @@
-.all{background: url(../img/body_bg.png); margin-top: -20px; }
-.main .works-show img{width: 80%;}
+.all{background: url(../img/body_bg.png); margin-top: -20px;}
+.all .main ul {text-align: center; margin-top: 75px; }
+.all .main ul li{padding: 0px 44px;line-height: 54px;}
+.all .main ul li a{color: #fff;font-size: 16px;}
+.all .main ul .bread-nav {background-color: #009944;border-radius: 5px;font-size: 26px;}
+.main .works-show img{width: 80%;margin: 0px auto;}
