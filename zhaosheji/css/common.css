@@ -35,11 +35,12 @@
 .content_title .content_title_main span.green{color:#86c60e;}
 .content_title .content_title_main span.white{color:#9c9494; margin-left:5px;}
 
+/*内容logo*/
 .content-logo{position:relative;}
 .content-logo .logo-foot{width:100%;}
 .content-logo .logo-footer{position:absolute; bottom:0px; left:43%;}
 
-
+/*内容serve*/
 .content-serve .type{text-align:center; width:1200px; margin:0px auto; color:#FFF;}
 .content-serve .type .chinese{font-size:66px;}
 .content-serve .tpye .english{font-size:51px;}
